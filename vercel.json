@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/buntomo/:path*",
+      "destination": "https://buntomo.vercel.app/buntomo/:path*"
+    }
+  ]
+}
