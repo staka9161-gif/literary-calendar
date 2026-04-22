@@ -1,12 +1,1 @@
-{
-  "rewrites": [
-    {
-      "source": "/buntomo",
-      "destination": "https://buntomo.vercel.app/buntomo"
-    },
-    {
-      "source": "/buntomo/:path*",
-      "destination": "https://buntomo.vercel.app/buntomo/:path*"
-    }
-  ]
-}
+{}
