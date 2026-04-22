@@ -65,7 +65,7 @@ export default function RootLayout({
               月別一覧
             </a>
             <a
-              href="/buntomo"
+              href="https://buntomo.bunkare.jp"
               className="rounded-md bg-amber-600 px-3 py-1 text-white hover:bg-amber-700 transition-colors text-xs"
             >
               📖 文とも
@@ -88,7 +88,7 @@ export default function RootLayout({
           </p>
           <p className="mt-1">今日の文学カレンダー</p>
           <a
-            href="/buntomo"
+            href="https://buntomo.bunkare.jp"
             className="mt-2 inline-block rounded-md bg-amber-600 px-4 py-1.5 text-white hover:bg-amber-700 transition-colors text-xs"
           >
             📖 読書SNS「文とも」はこちら
