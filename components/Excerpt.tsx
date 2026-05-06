@@ -22,16 +22,18 @@ export default function Excerpt({ work }: ExcerptProps) {
         <p className="text-xs text-sumi-light mt-1">{work.excerptSource}</p>
       </div>
 
-      <div className="mt-4 text-center">
-        <a
-          href={work.aozoraUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block px-5 py-2.5 text-sm text-shu border border-shu rounded hover:bg-shu hover:text-kinari transition-colors"
-        >
-          青空文庫で全文を読む →
-        </a>
-      </div>
+      {work.aozoraUrl && (
+        <div className="mt-4 text-center">
+          <a
+            href={work.aozoraUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-5 py-2.5 text-sm text-shu border border-shu rounded hover:bg-shu hover:text-kinari transition-colors"
+          >
+            青空文庫で全文を読む →
+          </a>
+        </div>
+      )}
     </div>
   );
 }

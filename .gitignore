@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# audit
+FINAL_REPORT.md
+bunkare_audit/
+reports/
+mirror/

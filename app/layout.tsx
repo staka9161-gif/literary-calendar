@@ -38,7 +38,7 @@ export default function RootLayout({
       lang="ja"
       className={`${notoSerifJP.variable} ${shipporiMincho.variable} h-full`}
     >
-      <head>
+      <body className="min-h-full flex flex-col font-[family-name:var(--font-shippori-mincho)]">
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
           strategy="afterInteractive"
@@ -51,8 +51,6 @@ export default function RootLayout({
             gtag('config', '${GA_ID}');
           `}
         </Script>
-      </head>
-      <body className="min-h-full flex flex-col font-[family-name:var(--font-shippori-mincho)]">
         <header className="flex items-center justify-between px-4 py-4 border-b border-shu/20">
           <a href="/" className="text-sumi hover:text-shu transition-colors">
             <h1 className="text-lg tracking-widest">今日の文学カレンダー</h1>
